@@ -1,7 +1,7 @@
 <?php 
 require_once 'data_file.php';
 
-define('AUDIOS_RUTA', '../../audios/');
+define('AUDIOS_RUTA', '../audios/');
 
 class Data{
     private $_object;
