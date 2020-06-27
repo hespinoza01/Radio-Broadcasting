@@ -20,6 +20,8 @@
     <center>
         <h1>Ajustes Lista</h1>
 
+        <button id="btn" style="margin: 1rem;">Abrir Cliente</button>
+
         <form id="form" action="" method="POST">
             <fieldset>
                 <label for="RANDOM">Modo de Revolver</label>
@@ -52,7 +54,8 @@
 
     <script>
         let form = document.getElementById("form"),
-            listaContent = document.getElementById("lista-content");
+            listaContent = document.getElementById("lista-content"),
+            btn = document.getElementById('btn');
 
         form.addEventListener('submit', e => {
             e.preventDefault();
@@ -64,6 +67,11 @@
             }).then(res => res.text())
                 .then(data => listaContent.innerHTML = data)
                 .catch(error => console.error(error));
+        });
+
+        btn.addEventListener('click', e => {
+            //fetch('php/ping.php');
+            window.open("cliente.php");
         });
     </script>
 </body>
