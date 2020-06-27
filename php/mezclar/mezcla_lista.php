@@ -8,9 +8,9 @@ function mezclar_generos(&$generos, &$generos_A_P, &$cont_A_P, &$RANDOM, &$SEPAR
     $primero = null;
     $ultimo = null;
 
-    if(cont_A_P == -1){   
+    if($cont_A_P == -1){   
         $temp_genero = mostrar_ausente_presente($generos, $cont_A_P, $RANDOM);
-        
+
         for($i=0; $i<count($generos); $i++){
             $generos[$i]["posicion_Perm"]=$i; // coloca las posiciones iniciales de la lista generos
         }                   
@@ -29,7 +29,7 @@ function mezclar_generos(&$generos, &$generos_A_P, &$cont_A_P, &$RANDOM, &$SEPAR
         while($encontrar == false){
             $encontrar = true;
             $generos_A_P = mostrar_Ausente_Presente($generos, $cont_A_P, $RANDOM);
-        
+
             if($RANDOM == 0){ // SIN RANDOM
                 //alert('pasooooooooooooooooooo');
                 $generos_A_P = burbuja_generos($generos_A_P);
@@ -74,14 +74,7 @@ function mezclar_generos(&$generos, &$generos_A_P, &$cont_A_P, &$RANDOM, &$SEPAR
                 if($ultimo == $primero ){
                     $encontrar = false;
                     $primero_ultimo++;
-                    //mostrarGenerosConsola(generos_A_P,1);
-                    //console.log("Ultimo genero es igual al primero:"+detener);
-                    //alert("Ultimo genero es igual al primero;"+detener);
-                    //detener++;
-                    //if(detener>5){
-                    //  inicializar_variables();
-                    //  principio();                                
-                    //}
+ 
                     if($RANDOM!=3){
                         $generos_A_P = $temp_genero;
                     }
@@ -95,13 +88,11 @@ function mezclar_generos(&$generos, &$generos_A_P, &$cont_A_P, &$RANDOM, &$SEPAR
             }else $iniciar_R_2=true;
         }
 
-        //if($primero_ultimo == 0) 
-        //    mostrarGenerosConsola(generos_A_P,1);
     }
     else{ 
-        if($RANDOM == 1) echo("Debe poseer 3 o más generos para mezclar con fisher yates");
-        else if($RANDOM ==2) echo("Debe poseer 3 o más generos para mezclar con sattolo");
-        else if($RANDOM ==3) echo("Debe poseer 3 o más generos para mezclar con permutacion");
+        if($RANDOM == 1) echo("<script> console.log('Debe poseer 3 o más generos para mezclar con fisher yates')</script>");
+        else if($RANDOM ==2) echo("<script> console.log('Debe poseer 3 o más generos para mezclar con sattolo')</script>");
+        else if($RANDOM ==3) echo("<script> console.log('Debe poseer 3 o más generos para mezclar con permutacion')</script>");
     }
 }
 
@@ -136,6 +127,7 @@ function mostrar_ausente_presente($generos, $cont_A_P, $RANDOM) {
         $cont_A_P= -1;
     } else {
         for($i=0, $j=0; $i<count($generos); $i++){
+            $generos[$i]["posicion_Perm"] = $i;
             if((int)($RANDOM) == 3 && (int)($generos[$i]["Ntracks"])!=0){
                 $generos_p[$j++]=$generos[$i];
             }
@@ -156,7 +148,7 @@ function reproducir(&$generos_A_P, &$pasado, &$lista, &$comerciales, &$generos, 
     $l_reproducir = array();
     $pos_A_P=0;
 
-    lista_reproduccion_generos($generos_A_P, $pasado, $lista, $escalar);   // asigna a reproduccion los tracks de generos a reproducir
+    lista_reproduccion_generos($generos_A_P, $generos, $pasado, $lista, $escalar);   // asigna a reproduccion los tracks de generos a reproducir
     for($i=0; $i<count($generos_A_P); $i++){
         
         $comerciales = limpiar_reproduccion_comerciales($comerciales); // limpia la variable reproduccion de los comerciales
@@ -224,7 +216,7 @@ function reproducir(&$generos_A_P, &$pasado, &$lista, &$comerciales, &$generos, 
 
 
 // AGREGA A GENEROS LOS TRACKS A LA LISTA DE REPRODUCCION
-function lista_reproduccion_generos(&$generos_A_P, &$pasado, &$lista, &$escalar){
+function lista_reproduccion_generos(&$generos_A_P, &$generos, &$pasado, &$lista, &$escalar){
     $i=0; $j=0; $k=0;
     $inicio=0;
 
@@ -281,12 +273,12 @@ function lista_reproduccion_comerciales(&$comerciales, &$pasado, &$lista, &$esca
         $inicio = (int)($comerciales[$i]["contador"]);
 
         if((int)($comerciales[$i]["tipo"]) != 2){
-            if(($inicio+(int)($comerciales[$i]["Ntracks"])) <= count($comerciales[i]["lista"])){
+            if(($inicio+(int)($comerciales[$i]["Ntracks"])) <= count($comerciales[$i]["lista"])){
                 for($j=$inicio,$k=0; $j<(int)($comerciales[$i]["Ntracks"])+$inicio; $j++,$k++){
-                    $comerciales[$i]["reproduccion"][$k]=$comerciales[$i]["lista"][j];
+                    $comerciales[$i]["reproduccion"][$k]=$comerciales[$i]["lista"][$j];
                 }
             // aqui va ultima posicion y audio  
-            }else if($j < count($comerciales[i]["lista"])){
+            }else if($j < count($comerciales[$i]["lista"])){
                 for($j=$inicio,$k=0; $j<count($comerciales[$i]["lista"]); $j++,$k++){
                     $comerciales[$i]["reproduccion"][$k]=$comerciales[$i]["lista"][$j];
                 }
@@ -352,8 +344,8 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
             
     if($generos_A_P_T["modo_revolver"] == 4){
         $algoritmo = seleccionar_algoritmo_revolver($generos_A_P_T["p_eliminar"]);
-        if($algoritmo==0) echo('Algoritmo Escogido: Fisher Yates</br>');
-        if($algoritmo==1) echo('Algoritmo Escogido: Sattolo</br>');
+        if($algoritmo==0) echo('<script> console.log("Algoritmo Escogido: Fisher Yates")</script>');
+        if($algoritmo==1) echo('<script> console.log("Algoritmo Escogido: Sattolo")</script>');
     }
     
     
@@ -362,14 +354,14 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
             $temporal=$constante[$j];
 
             if(count($generos_A_P_T["seleccion_pasado"])==0 && $temporal==$pasado && $j==0){
-                echo('TEMPORAL ES IGUAL A PASADO</br>');
+                echo('<script> console.log("TEMPORAL ES IGUAL A PASADO")</script>');
                 $temporal=$constante[$j+1];
             }
             //console.log('tamano genero pasado:'+generos_A_P_T.seleccion_pasado.length);
             if(index_of($generos_A_P_T["seleccion_pasado"], $temporal)==-1){
                 array_push($generos_A_P_T["seleccion_pasado"], $temporal);//constante[j]);
 
-                if(index_of($tempLista, $temporal)==len-1 && $generos_A_P_T["modo_revolver"] == 1){
+                if(index_of($tempLista, $temporal)==$len-1 && $generos_A_P_T["modo_revolver"] == 1){
                     array_pop($generos_A_P_T["seleccion_pasado"]);   
                     continue;
                 }
@@ -388,12 +380,11 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
     
         $escalar = index_of($tempLista, $temporal);
         // verificación
-        echo("</br>");
-        echo("Audio Escogido=".$temporal." posicion=".$escalar."</br>");
+        echo("<script> console.log('Audio Escogido=".$temporal." posicion=".$escalar."')</script>");
     }
-    echo("Array Antes=[");
-    print_r($tempLista);
-    echo("]</br>");
+    echo("<script> console.log('Array Antes=[");
+    echo(implode(",", $tempLista));
+    echo("]')</script>");
     $ultimoLista = $tempLista[$len-1];
     
     if($generos_A_P_T["modo_revolver"] == 2){   
@@ -429,13 +420,13 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
     }
 
     if($generos_A_P_T["modo_revolver"] == 3){
-        $lista = insert_sattolo($array, temporal, count($array)-1);
+        $lista = insert_sattolo($array, $temporal, count($array)-1);
     }
     
     if($generos_A_P_T["modo_revolver"] == 4){ 
         if($algoritmo==0){
             $lista = shuffle_array($array);
-        }else if(algoritmo==1){
+        }else if($algoritmo==1){
             $lista = sattolo($array);
         }
     }
@@ -443,6 +434,7 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
     $encontrar=false;
     $contador;
     $contador2;
+    $j=0;
     while($encontrar == false){
         $encontrar = true;
         $contador=0;
@@ -456,7 +448,7 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
         //Paso 1.- verificacion de igualdad
         if($contador==count($lista)){
             $encontrar = false;
-            echo("son iguales</br>");
+            echo("<script> console.log('son iguales')</script>");
 
             if($generos_A_P_T["modo_revolver"] == 2){   
                 $lista = insert_sattolo($array, $temporal, $escalar);
@@ -483,17 +475,17 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
                 $lista = insert_sattolo($array, $temporal, $escalar);
             }
             if($generos_A_P_T["modo_revolver"] == 1){
-                echo("ultimo igual a primero 2</br>");
+                echo("<script> console.log('ultimo igual a primero 2')</script>");
                 //console.log(array);
                 $lista = insert_sattolo($array, $temporal, 0);
                 //console.log(lista);
             }
             if($generos_A_P_T["modo_revolver"] == 3){
-                echo("ultimo igual a primero 3</br>");
+                echo("<script> console.log('ultimo igual a primero 3')</script>");
                 $lista = insert_sattolo($array, $temporal, count($array)-1);
             }
             if($generos_A_P_T["modo_revolver"] == 4){ 
-                echo("ultimo igual a primero 4<br>");
+                echo("<script> console.log('ultimo igual a primero 4')</script>");
                 if($algoritmo==0){
                     $lista = shuffle_array($array);
                 }else if($algoritmo==1){
@@ -513,7 +505,7 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
             }
             if($contador2>0){
                 $encontrar = false;
-                echo("hay una posicion repetida3</br>");
+                echo("<script> console.log('hay una posicion repetida3')</script>");
                 $lista = insert_sattolo($array, $temporal, count($array)-1);   
             }
             $contador2=0;
@@ -525,7 +517,7 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
             }
             if($contador2>1){
                 $encontrar = false;
-                echo("hay una posicion repetida1</br>");
+                echo("<script> console.log('hay una posicion repetida1')</script>");
                 $lista = insert_sattolo($array, $temporal, $escalar);
             }
             $contador2=0;
@@ -544,7 +536,7 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
             //console.log('contador2:'+contador2);
             if($contador2>0){
                 $encontrar = false;
-                echo("hay una posicion repetida2</br>");
+                echo("<script> console.log('hay una posicion repetida2')</script>");
                 //console.log(array);
                 $lista = insert_sattolo($array, $temporal, 0);
                 
@@ -573,7 +565,7 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
 
             if($contador2>0){
                 $encontrar = false;
-                echo("hay una posicion repetida4</br>");
+                echo("<script> console.log('hay una posicion repetida4')</script>");
                 if($algoritmo==0){
                     $lista = shuffle_array($array);
                 }else if($algoritmo==1){
@@ -584,9 +576,9 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
         }
     }
     // verificación
-    echo("Array Nuevo=[");
-    print_r($lista);
-    echo("]</br>");
+    echo("<script> console.log('Array Nuevo=[");
+    echo(implode(", ", $lista));
+    echo("]')</script>");
 //          document.getElementById("txtArray").innerHTML = "["+lista+"]";
     $escalar=-1;
 }
@@ -616,7 +608,7 @@ function seleccionar_algoritmo_revolver($p_eliminar){
     while(1){
         $elegido=get_random_int(0,8);
         if(index_of($eliminado_sattolo, $elegido)==-1){
-            array_push($eliminado_sattolo, elegido);                            
+            array_push($eliminado_sattolo, $elegido);                            
         }
         if(count($eliminado_sattolo)==$n_eliminar) break;
     }
@@ -632,9 +624,9 @@ function seleccionar_algoritmo_revolver($p_eliminar){
         $tmp_fisher = remove_item_from_arr($tmp_fisher, $arreglo[$eliminado_fisher[$i]]);
     }
 
-    echo('Restantes Fisher:</br>');
-    print_r($tmp_fisher);
-    echo "</br>";
+    echo("<script> console.log('Restantes Fisher: ");
+    echo(implode(", ", $tmp_fisher));
+    echo "')</script>";
     
     // ELIMINAR LOS ESCOGIDOS DE SATTOLO DEL ARREGLO
     $tmp_sattolo= array();
@@ -645,9 +637,9 @@ function seleccionar_algoritmo_revolver($p_eliminar){
     for($i=0; $i<$n_eliminar; $i++){
         $tmp_sattolo = remove_item_from_arr($tmp_sattolo, $arreglo[$eliminado_sattolo[$i]]);
     }
-    echo('Restantes Sattolo:</br>');
-    print_r($tmp_sattolo);
-    echo "</br>";
+    echo("<script> console.log('Restantes Sattolo: ");
+    echo(implode(", ", $tmp_sattolo));
+    echo "')</script>";
     
     
     for($j=0; $j<count($tmp_fisher); $j++){   
@@ -655,11 +647,11 @@ function seleccionar_algoritmo_revolver($p_eliminar){
         $total_sattolo = $total_sattolo+(int)($tmp_sattolo[$j]);
     }
     if($total_fisher == $total_sattolo) {
-        echo('La suma de fisher y sattollo son iguales</br>');
+        echo("<script> console.log('La suma de fisher y sattollo son iguales')</script>");
         seleccionar_algoritmo_revolver($p_eliminar);
     }
     else {
-        echo('Total Fisher:'.$total_fisher.',Total Sattolo:'.$total_sattolo);
+        echo("<script> console.log('Total Fisher:".$total_fisher.",Total Sattolo:".$total_sattolo."')</script>");
     }
     if($total_fisher>$total_sattolo){
         return 0;

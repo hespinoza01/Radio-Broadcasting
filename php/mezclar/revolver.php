@@ -13,6 +13,56 @@ function get_random_int($min, $max) {
     return floor(random() * ($max - $min)) + $min;
 }
 
+
+// str_slice(string $str, int $start [, int $end])
+function str_slice() {
+    $args = func_get_args();
+    switch (count($args)) {
+        case 1:
+            return $args[0];
+        case 2:
+            $str        = $args[0];
+            $str_length = strlen($str);
+            $start      = $args[1];
+            if ($start < 0) {
+                if ($start >= - $str_length) {
+                    $start = $str_length - abs($start);
+                } else {
+                    $start = 0;
+                }
+            }
+            else if ($start >= $str_length) {
+                $start = $str_length;
+            }
+            $length = $str_length - $start;
+            return substr($str, $start, $length);
+        case 3:
+            $str        = $args[0];
+            $str_length = strlen($str);
+            $start      = $args[1];
+            $end        = $args[2];
+            if ($start >= $str_length) {
+                return "";
+            }
+            if ($start < 0) {
+                if ($start < - $str_length) {
+                    $start = 0;
+                } else {
+                    $start = $str_length - abs($start);
+                }
+            }
+            if ($end <= $start) {
+                return "";
+            }
+            if ($end > $str_length) {
+                $end = $str_length;
+            }
+            $length = $end - $start;
+            return substr($str, $start, $length);
+    }
+    return null;
+}
+
 // INSERTAR UN ITEM A LA LISTA
 function insert_sattolo($array, $temporal, $escalar){
     remove_item_from_arr($array, $temporal);
@@ -59,7 +109,7 @@ function burbuja_generos($array) {
 
 // REMOVER UN ITEM DE LA LISTA
 function remove_item_from_arr($arr, $item) {
-    $i = inde_of($arr, $item);
+    $i = index_of($arr, $item);
     if($i !== -1) {
         array_splice($arr, $i, 1);
     }
@@ -68,7 +118,7 @@ function remove_item_from_arr($arr, $item) {
 }
 
 // CONTROLA LA PERMUTACION
-function permutaciones($array, $activar_permutacion, $generos_A_P, $permutacion, $permutado_pasado, $conta){
+function permutaciones($array, &$activar_permutacion, $generos_A_P, &$permutacion, &$permutado_pasado, &$conta){
     $tam_array = count($array);
     $cadena = "";
     $fisher_elegido = "";
@@ -78,12 +128,13 @@ function permutaciones($array, $activar_permutacion, $generos_A_P, $permutacion,
             $cadena = $cadena.$generos_A_P[$i]["posicion_Perm"];
         }
 
-        permuta("", $cadena, $permutacion);
+        //permuta($cad_i, $cadena, $conta, $permutacion);
+        $permutacion = permuta($cadena, $conta);
         $activar_permutacion=true;
     }
 
     if(count($permutado_pasado) == $conta){
-        $permutacion = $permutado_pasado;
+        $permutacion = $permutado_pasado; //echo "permuta-pas";
         $permutado_pasado= array();
     }       
     
@@ -110,12 +161,12 @@ function permutaciones($array, $activar_permutacion, $generos_A_P, $permutacion,
 
             for($j=0; $j<$factorial; $j++) {   
                 for($i=1+$j; $i<$factorial; $i++) {
-                    if(array_slice($permutacion[$j], -1) != array_slice($permutacion[$i], 0, 1)){
+                    if(str_slice($permutacion[$j], -1) != str_slice($permutacion[$i], 0, 1)){
                         [$permutacion[$j+1], $permutacion[$i]] = [$permutacion[$i], $permutacion[$j+1]];
                         break;
                     }
 
-                    if($i==$factorial-1 && $j==$i-1 && array_slice($permutacion[$j], -1) == array_slice($permutacion[$i], 0, 1)){
+                    if($i==$factorial-1 && $j==$i-1 && str_slice($permutacion[$j], -1) == str_slice($permutacion[$i], 0, 1)){
                         $permutacion = shuffle_array($permutacion);
                         $reacomodar=false;
                     }
@@ -133,7 +184,7 @@ function permutaciones($array, $activar_permutacion, $generos_A_P, $permutacion,
             
             // verificar si esta bien estructurado
             for($i=0; $i<$factorial-1; $i++){
-                if(array_slice($permutacion[$i], -1) == array_slice($permutacion[$i+1], 0, 1)){
+                if(str_slice($permutacion[$i], -1) == str_slice($permutacion[$i+1], 0, 1)){
                     $permutacion = shuffle_array($permutacion);
                     $reacomodar = false;
                     break;
@@ -175,19 +226,23 @@ function permutaciones($array, $activar_permutacion, $generos_A_P, $permutacion,
 }
 
 // CARGA EN VARIABLE LAS DIFERENTES COMBINACIONES DE LA PERMUTACION
-function permuta ($cad_I, $cad_D, $permutacion){
-    if (count($cad_D) == 1){
-        $permutacion[$conta++] = $cad_I + $cad_D;
-        return $permutacion;
+function permuta($arg, &$conta) {
+    $array = is_string($arg) ? str_split($arg) : $arg;
+    if(1 === count($array)){
+        $conta++;
+        return $array;
     }
-    for ($i =0; $i<count($cad_D); $i++){
-        permuta($cad_I + $cad_D{$i}, str_replace($cad_D{$i}, "", $cad_D));
-    } 
-    return $permutacion;
+
+    $result = array();
+    foreach($array as $key => $item)
+        foreach(permuta(array_diff_key($array, array($key => $item)), $conta) as $p)
+            $result[] = $item . $p;
+
+    return $result;
 }
 
 // ORDENA LA PERMUTACION
-function ordenar_permutacion($fisher, $generos_A_P){
+function ordenar_permutacion(&$fisher, &$generos_A_P){
     for($i=0; $i<count($generos_A_P); $i++){
         for($j=0; $j<count($generos_A_P); $j++){
             if($generos_A_P[$j]["posicion_Perm"] == $fisher{$i}){
@@ -210,7 +265,7 @@ function consultar_pasado($fisher_elegido, $permutado_pasado){
         }
     }
 
-    return encontrar;
+    return $encontrar;
 }
 
 

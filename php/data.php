@@ -170,4 +170,47 @@ class Lista1 extends Data{
     function Load(){ parent::Load(); return $this; }
 }
 
+class General extends Data{
+    function __construct(){
+        parent::__construct(
+            "../json/general.json",
+            array(
+                'RANDOM'                    => "0",
+                'PIZZICATO'                 => "0",
+                'SEPARAR_GENERO'            => "1",
+                'nronda'                    => 0,
+                'temporal'                  => "",
+                'escalar'                   => -1,
+                'cont_A_P'                  => 0,
+                'temporal_A_P'              => 0,
+                'permutacion'               => array(),
+                'permutado_pasado'          => array(),
+                'activar_permutacion'       => false,
+                'comerciales_generos'       => true,
+                'conta":0,"iniciar_R_2'     => true,
+                'version'                   => "1",
+                'tiempo_inactividad'        => "1",
+                'usuario'                   => "IVAN",
+                'clave'                     => "2727",
+                'nombre_emisora'            => "",
+                'color_emisora'             => "000000",
+                'letra_emisora'             => "35",
+                'slogan_emisora'            => "",
+                'color_slogan'              => "0000FF",
+                'letra_slogan'              => "30",
+                'url_logo'                  => "",
+                'ancho_logo'                => "70",
+                'largo_logo'                => "70",
+                'redondeo'                  => "10"
+            ));
+    }
+
+    function Path(){ return parent::Path(); }
+    function Get(){ return parent::Get(); }
+    function GetString(){ return parent::GetString(); }
+    function Set($values){ parent::Set($values); }
+    function Save(){ return parent::Save(); }
+    function Load(){ parent::Load(); return $this; }
+}
+
  ?>
