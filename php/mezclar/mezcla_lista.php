@@ -294,7 +294,7 @@ function lista_reproduccion_comerciales(&$comerciales, &$pasado, &$lista, &$esca
             }
 
             $comerciales[$i]["contador"] = $j; // ultima posicion de la lista genero de reproduccion
-            $comerciales[$i]["ultima"] = $comerciales[$i]["lista"][$j]; // ultimo audio de la lista de reproduccion
+            $comerciales[$i]["ultima"] = (isset($comerciales[$i]["lista"][$j])) ? $comerciales[$i]["lista"][$j] : null; // ultimo audio de la lista de reproduccion
             if(count($comerciales[$i]["lista"]) == $j){
                 mezclar($comerciales[$i]["lista"], $i, $comerciales[$i], $pasado, $lista, $escalar);
                 $comerciales[$i]["contador"] = 0; // ultima posicion de la lista genero de reproduccion
@@ -441,6 +441,7 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
         $contador2=0;
 
         for($i=0; $i<count($lista); $i++){
+            if(!isset($tempLista[$i]) || !isset($lista[$i])) continue;
             if($tempLista[$i] != $lista[$i])
                 break;
             $contador++;
@@ -500,6 +501,7 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
             $t_lista = remove_item_from_arr($t_lista, $lista[count($lista)-1]);
             //console.log(t_lista);
             for($i=0,$j=0; $i<count($lista)-1; $i++){
+                if(!isset($t_lista[$i]) || !isset($lista[$i])) continue;
                 if($t_lista[$i] == $lista[$i])
                     $contador2++;
             }
@@ -512,8 +514,10 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
         }
         if($generos_A_P_T["modo_revolver"] == 2){
             for($i=0; $i<count($lista); $i++){
-                if($tempLista[$i] == $lista[$i])
+                if(!isset($tempLista[$i]) || !isset($lista[$i])) continue;
+                if($tempLista[$i] == $lista[$i]){
                     $contador2++;
+                }
             }
             if($contador2>1){
                 $encontrar = false;
@@ -529,6 +533,7 @@ function mezclar(&$array, $pos, &$generos_A_P_T, &$pasado, &$lista, &$escalar){
             //console.log(lista);
             for($i=1,$j=0; $i<count($lista); $i++,$j++){
                 //console.log(t_lista[j]+'='+lista [i]);
+                if(!isset($t_lista[$j]) || !isset($lista[$j])) continue;
                 if($t_lista[$j] == $lista[$i]){
                     $contador2++;
                 }

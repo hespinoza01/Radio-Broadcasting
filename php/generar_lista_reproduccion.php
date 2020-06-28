@@ -33,9 +33,11 @@ $escalar = $datos_variables->Get()["escalar"]; //cargar
 $comerciales_generos = false; //cargar;
 $pasado = '';
 
-$RANDOM = $_POST["RANDOM"];
-$nronda = $_POST["nronda"];
-$SEPARAR_GENERO = $_POST["SEPARAR_GENERO"];
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $RANDOM = $_POST["RANDOM"];
+    $nronda = $_POST["nronda"];
+    $SEPARAR_GENERO = $_POST["SEPARAR_GENERO"];
+}
 
 if($RANDOM == 3){
     $permutacion = $datos_variables->Get()["permutacion"];
@@ -43,7 +45,7 @@ if($RANDOM == 3){
     $activar_permutacion = $datos_variables->Get()["activar_permutacion"];
 }
 
-for($i=$current_lista, $j=0; $i<(int)($nronda)+(int)($current_lista); $i++, $j++) {
+for($i=$current_lista, $j=0; $i<((int)($nronda)+(int)($current_lista)); $i++, $j++) {
     mezclar_generos(
         $generos, 
         $generos_A_P, 
@@ -65,7 +67,7 @@ for($i=$current_lista, $j=0; $i<(int)($nronda)+(int)($current_lista); $i++, $j++
         $escalar, 
         $comerciales_generos); // CREA LA LISTA DE REPRODUCCION
 
-    $lista_reproducciones[$j] = array(
+    $lista_reproducciones[] = array(
         "current_lista" => $j,
         "lista"         => $lista
     );
