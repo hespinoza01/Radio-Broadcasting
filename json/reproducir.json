@@ -1,0 +1,3786 @@
+[
+    {
+        "filename": "..\/audios\/MERENGUE\/001.ogg",
+        "filesize": 5381710,
+        "playtime": 240.33523809523808,
+        "audiostart": 156,
+        "audioend": 5372078,
+        "audiolength": 5371922
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/002.ogg",
+        "filesize": 6350146,
+        "playtime": 251.66657596371883,
+        "audiostart": 323,
+        "audioend": 6350047,
+        "audiolength": 6349724
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/002.mp3",
+        "filesize": 82176,
+        "playtime": 4.872,
+        "audiostart": 4096,
+        "audioend": 82048,
+        "audiolength": 77952
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/008.mp3",
+        "filesize": 367848,
+        "playtime": 30.648,
+        "audiostart": 72,
+        "audioend": 367848,
+        "audiolength": 367776
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/004.mp3",
+        "filesize": 239976,
+        "playtime": 19.992,
+        "audiostart": 72,
+        "audioend": 239976,
+        "audiolength": 239904
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/008.mp3",
+        "filesize": 480456,
+        "playtime": 40.032,
+        "audiostart": 72,
+        "audioend": 480456,
+        "audiolength": 480384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/005.mp3",
+        "filesize": 363528,
+        "playtime": 30.288,
+        "audiostart": 72,
+        "audioend": 363528,
+        "audiolength": 363456
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-2.mp3",
+        "filesize": 52992,
+        "playtime": 3.048,
+        "audiostart": 4096,
+        "audioend": 52864,
+        "audiolength": 48768
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-4.mp3",
+        "filesize": 39936,
+        "playtime": 2.232,
+        "audiostart": 4096,
+        "audioend": 39808,
+        "audiolength": 35712
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-2.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-2.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-3.mp3",
+        "filesize": 49920,
+        "playtime": 2.856,
+        "audiostart": 4096,
+        "audioend": 49792,
+        "audiolength": 45696
+    },
+    {
+        "filename": "..\/audios\/REGGAE\/001.ogg",
+        "filesize": 1250042,
+        "playtime": 228.39147916666664,
+        "audiostart": 233,
+        "audioend": 1249760,
+        "audiolength": 1249527
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/002.mp3",
+        "filesize": 82176,
+        "playtime": 4.872,
+        "audiostart": 4096,
+        "audioend": 82048,
+        "audiolength": 77952
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/008.mp3",
+        "filesize": 367848,
+        "playtime": 30.648,
+        "audiostart": 72,
+        "audioend": 367848,
+        "audiolength": 367776
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/004.mp3",
+        "filesize": 239976,
+        "playtime": 19.992,
+        "audiostart": 72,
+        "audioend": 239976,
+        "audiolength": 239904
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/008.mp3",
+        "filesize": 480456,
+        "playtime": 40.032,
+        "audiostart": 72,
+        "audioend": 480456,
+        "audiolength": 480384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/005.mp3",
+        "filesize": 363528,
+        "playtime": 30.288,
+        "audiostart": 72,
+        "audioend": 363528,
+        "audiolength": 363456
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-3.mp3",
+        "filesize": 53376,
+        "playtime": 3.072,
+        "audiostart": 4096,
+        "audioend": 53248,
+        "audiolength": 49152
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-2.mp3",
+        "filesize": 64128,
+        "playtime": 3.744,
+        "audiostart": 4096,
+        "audioend": 64000,
+        "audiolength": 59904
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-4.mp3",
+        "filesize": 66048,
+        "playtime": 3.864,
+        "audiostart": 4096,
+        "audioend": 65920,
+        "audiolength": 61824
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-3.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-2.mp3",
+        "filesize": 59904,
+        "playtime": 3.48,
+        "audiostart": 4096,
+        "audioend": 59776,
+        "audiolength": 55680
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/001.mp3",
+        "filesize": 3788800,
+        "playtime": 236.669375,
+        "audiostart": 1962,
+        "audioend": 3788672,
+        "audiolength": 3786710
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/002.mp3",
+        "filesize": 5140480,
+        "playtime": 214.04729166666667,
+        "audiostart": 2718,
+        "audioend": 5140480,
+        "audiolength": 5137762
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALSA\/001.ogg",
+        "filesize": 7017041,
+        "playtime": 325.694693877551,
+        "audiostart": 260,
+        "audioend": 7015593,
+        "audiolength": 7015333
+    },
+    {
+        "filename": "..\/audios\/SALSA\/002.ogg",
+        "filesize": 6419179,
+        "playtime": 254.8157823129252,
+        "audiostart": 156,
+        "audioend": 6415541,
+        "audiolength": 6415385
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-3.mp3",
+        "filesize": 61056,
+        "playtime": 3.552,
+        "audiostart": 4096,
+        "audioend": 60928,
+        "audiolength": 56832
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-1.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-4.mp3",
+        "filesize": 49152,
+        "playtime": 2.808,
+        "audiostart": 4096,
+        "audioend": 49024,
+        "audiolength": 44928
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/REGGAE\/001.ogg",
+        "filesize": 1250042,
+        "playtime": 228.39147916666664,
+        "audiostart": 233,
+        "audioend": 1249760,
+        "audiolength": 1249527
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-1.mp3",
+        "filesize": 53760,
+        "playtime": 3.096,
+        "audiostart": 4096,
+        "audioend": 53632,
+        "audiolength": 49536
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-1.mp3",
+        "filesize": 74112,
+        "playtime": 4.368,
+        "audiostart": 4096,
+        "audioend": 73984,
+        "audiolength": 69888
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-3.mp3",
+        "filesize": 80640,
+        "playtime": 4.776,
+        "audiostart": 4096,
+        "audioend": 80512,
+        "audiolength": 76416
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-1.mp3",
+        "filesize": 38784,
+        "playtime": 2.16,
+        "audiostart": 4096,
+        "audioend": 38656,
+        "audiolength": 34560
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-1.mp3",
+        "filesize": 51840,
+        "playtime": 2.976,
+        "audiostart": 4096,
+        "audioend": 51712,
+        "audiolength": 47616
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/001.mp3",
+        "filesize": 3788800,
+        "playtime": 236.669375,
+        "audiostart": 1962,
+        "audioend": 3788672,
+        "audiolength": 3786710
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/002.mp3",
+        "filesize": 5140480,
+        "playtime": 214.04729166666667,
+        "audiostart": 2718,
+        "audioend": 5140480,
+        "audiolength": 5137762
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-2.mp3",
+        "filesize": 52992,
+        "playtime": 3.048,
+        "audiostart": 4096,
+        "audioend": 52864,
+        "audiolength": 48768
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-4.mp3",
+        "filesize": 39936,
+        "playtime": 2.232,
+        "audiostart": 4096,
+        "audioend": 39808,
+        "audiolength": 35712
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-2.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-2.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-3.mp3",
+        "filesize": 49920,
+        "playtime": 2.856,
+        "audiostart": 4096,
+        "audioend": 49792,
+        "audiolength": 45696
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALSA\/001.ogg",
+        "filesize": 7017041,
+        "playtime": 325.694693877551,
+        "audiostart": 260,
+        "audioend": 7015593,
+        "audiolength": 7015333
+    },
+    {
+        "filename": "..\/audios\/SALSA\/002.ogg",
+        "filesize": 6419179,
+        "playtime": 254.8157823129252,
+        "audiostart": 156,
+        "audioend": 6415541,
+        "audiolength": 6415385
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-2.mp3",
+        "filesize": 64128,
+        "playtime": 3.744,
+        "audiostart": 4096,
+        "audioend": 64000,
+        "audiolength": 59904
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/001.ogg",
+        "filesize": 5381710,
+        "playtime": 240.33523809523808,
+        "audiostart": 156,
+        "audioend": 5372078,
+        "audiolength": 5371922
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/002.ogg",
+        "filesize": 6350146,
+        "playtime": 251.66657596371883,
+        "audiostart": 323,
+        "audioend": 6350047,
+        "audiolength": 6349724
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-3.mp3",
+        "filesize": 53376,
+        "playtime": 3.072,
+        "audiostart": 4096,
+        "audioend": 53248,
+        "audiolength": 49152
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-3.mp3",
+        "filesize": 61056,
+        "playtime": 3.552,
+        "audiostart": 4096,
+        "audioend": 60928,
+        "audiolength": 56832
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-4.mp3",
+        "filesize": 66048,
+        "playtime": 3.864,
+        "audiostart": 4096,
+        "audioend": 65920,
+        "audiolength": 61824
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-3.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-2.mp3",
+        "filesize": 59904,
+        "playtime": 3.48,
+        "audiostart": 4096,
+        "audioend": 59776,
+        "audiolength": 55680
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALSA\/001.ogg",
+        "filesize": 7017041,
+        "playtime": 325.694693877551,
+        "audiostart": 260,
+        "audioend": 7015593,
+        "audiolength": 7015333
+    },
+    {
+        "filename": "..\/audios\/SALSA\/002.ogg",
+        "filesize": 6419179,
+        "playtime": 254.8157823129252,
+        "audiostart": 156,
+        "audioend": 6415541,
+        "audiolength": 6415385
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-1.mp3",
+        "filesize": 74112,
+        "playtime": 4.368,
+        "audiostart": 4096,
+        "audioend": 73984,
+        "audiolength": 69888
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/001.ogg",
+        "filesize": 5381710,
+        "playtime": 240.33523809523808,
+        "audiostart": 156,
+        "audioend": 5372078,
+        "audiolength": 5371922
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/002.ogg",
+        "filesize": 6350146,
+        "playtime": 251.66657596371883,
+        "audiostart": 323,
+        "audioend": 6350047,
+        "audiolength": 6349724
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-4.mp3",
+        "filesize": 39936,
+        "playtime": 2.232,
+        "audiostart": 4096,
+        "audioend": 39808,
+        "audiolength": 35712
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-1.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-4.mp3",
+        "filesize": 49152,
+        "playtime": 2.808,
+        "audiostart": 4096,
+        "audioend": 49024,
+        "audiolength": 44928
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/REGGAE\/001.ogg",
+        "filesize": 1250042,
+        "playtime": 228.39147916666664,
+        "audiostart": 233,
+        "audioend": 1249760,
+        "audiolength": 1249527
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-1.mp3",
+        "filesize": 53760,
+        "playtime": 3.096,
+        "audiostart": 4096,
+        "audioend": 53632,
+        "audiolength": 49536
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-2.mp3",
+        "filesize": 64128,
+        "playtime": 3.744,
+        "audiostart": 4096,
+        "audioend": 64000,
+        "audiolength": 59904
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-3.mp3",
+        "filesize": 80640,
+        "playtime": 4.776,
+        "audiostart": 4096,
+        "audioend": 80512,
+        "audiolength": 76416
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-1.mp3",
+        "filesize": 38784,
+        "playtime": 2.16,
+        "audiostart": 4096,
+        "audioend": 38656,
+        "audiolength": 34560
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-1.mp3",
+        "filesize": 51840,
+        "playtime": 2.976,
+        "audiostart": 4096,
+        "audioend": 51712,
+        "audiolength": 47616
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/001.mp3",
+        "filesize": 3788800,
+        "playtime": 236.669375,
+        "audiostart": 1962,
+        "audioend": 3788672,
+        "audiolength": 3786710
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/002.mp3",
+        "filesize": 5140480,
+        "playtime": 214.04729166666667,
+        "audiostart": 2718,
+        "audioend": 5140480,
+        "audiolength": 5137762
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-2.mp3",
+        "filesize": 52992,
+        "playtime": 3.048,
+        "audiostart": 4096,
+        "audioend": 52864,
+        "audiolength": 48768
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-3.mp3",
+        "filesize": 61056,
+        "playtime": 3.552,
+        "audiostart": 4096,
+        "audioend": 60928,
+        "audiolength": 56832
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-2.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-2.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-3.mp3",
+        "filesize": 49920,
+        "playtime": 2.856,
+        "audiostart": 4096,
+        "audioend": 49792,
+        "audiolength": 45696
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-1.mp3",
+        "filesize": 74112,
+        "playtime": 4.368,
+        "audiostart": 4096,
+        "audioend": 73984,
+        "audiolength": 69888
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/001.ogg",
+        "filesize": 5381710,
+        "playtime": 240.33523809523808,
+        "audiostart": 156,
+        "audioend": 5372078,
+        "audiolength": 5371922
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/002.ogg",
+        "filesize": 6350146,
+        "playtime": 251.66657596371883,
+        "audiostart": 323,
+        "audioend": 6350047,
+        "audiolength": 6349724
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/002.mp3",
+        "filesize": 82176,
+        "playtime": 4.872,
+        "audiostart": 4096,
+        "audioend": 82048,
+        "audiolength": 77952
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/008.mp3",
+        "filesize": 367848,
+        "playtime": 30.648,
+        "audiostart": 72,
+        "audioend": 367848,
+        "audiolength": 367776
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/004.mp3",
+        "filesize": 239976,
+        "playtime": 19.992,
+        "audiostart": 72,
+        "audioend": 239976,
+        "audiolength": 239904
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/008.mp3",
+        "filesize": 480456,
+        "playtime": 40.032,
+        "audiostart": 72,
+        "audioend": 480456,
+        "audiolength": 480384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/005.mp3",
+        "filesize": 363528,
+        "playtime": 30.288,
+        "audiostart": 72,
+        "audioend": 363528,
+        "audiolength": 363456
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-3.mp3",
+        "filesize": 53376,
+        "playtime": 3.072,
+        "audiostart": 4096,
+        "audioend": 53248,
+        "audiolength": 49152
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-4.mp3",
+        "filesize": 39936,
+        "playtime": 2.232,
+        "audiostart": 4096,
+        "audioend": 39808,
+        "audiolength": 35712
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-4.mp3",
+        "filesize": 66048,
+        "playtime": 3.864,
+        "audiostart": 4096,
+        "audioend": 65920,
+        "audiolength": 61824
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-3.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-2.mp3",
+        "filesize": 59904,
+        "playtime": 3.48,
+        "audiostart": 4096,
+        "audioend": 59776,
+        "audiolength": 55680
+    },
+    {
+        "filename": "..\/audios\/REGGAE\/001.ogg",
+        "filesize": 1250042,
+        "playtime": 228.39147916666664,
+        "audiostart": 233,
+        "audioend": 1249760,
+        "audiolength": 1249527
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/002.mp3",
+        "filesize": 82176,
+        "playtime": 4.872,
+        "audiostart": 4096,
+        "audioend": 82048,
+        "audiolength": 77952
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/008.mp3",
+        "filesize": 367848,
+        "playtime": 30.648,
+        "audiostart": 72,
+        "audioend": 367848,
+        "audiolength": 367776
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/004.mp3",
+        "filesize": 239976,
+        "playtime": 19.992,
+        "audiostart": 72,
+        "audioend": 239976,
+        "audiolength": 239904
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/008.mp3",
+        "filesize": 480456,
+        "playtime": 40.032,
+        "audiostart": 72,
+        "audioend": 480456,
+        "audiolength": 480384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/005.mp3",
+        "filesize": 363528,
+        "playtime": 30.288,
+        "audiostart": 72,
+        "audioend": 363528,
+        "audiolength": 363456
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-2.mp3",
+        "filesize": 64128,
+        "playtime": 3.744,
+        "audiostart": 4096,
+        "audioend": 64000,
+        "audiolength": 59904
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-1.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-4.mp3",
+        "filesize": 49152,
+        "playtime": 2.808,
+        "audiostart": 4096,
+        "audioend": 49024,
+        "audiolength": 44928
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/001.mp3",
+        "filesize": 3788800,
+        "playtime": 236.669375,
+        "audiostart": 1962,
+        "audioend": 3788672,
+        "audiolength": 3786710
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/002.mp3",
+        "filesize": 5140480,
+        "playtime": 214.04729166666667,
+        "audiostart": 2718,
+        "audioend": 5140480,
+        "audiolength": 5137762
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALSA\/001.ogg",
+        "filesize": 7017041,
+        "playtime": 325.694693877551,
+        "audiostart": 260,
+        "audioend": 7015593,
+        "audiolength": 7015333
+    },
+    {
+        "filename": "..\/audios\/SALSA\/002.ogg",
+        "filesize": 6419179,
+        "playtime": 254.8157823129252,
+        "audiostart": 156,
+        "audioend": 6415541,
+        "audiolength": 6415385
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-1.mp3",
+        "filesize": 53760,
+        "playtime": 3.096,
+        "audiostart": 4096,
+        "audioend": 53632,
+        "audiolength": 49536
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-3.mp3",
+        "filesize": 61056,
+        "playtime": 3.552,
+        "audiostart": 4096,
+        "audioend": 60928,
+        "audiolength": 56832
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-3.mp3",
+        "filesize": 80640,
+        "playtime": 4.776,
+        "audiostart": 4096,
+        "audioend": 80512,
+        "audiolength": 76416
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-1.mp3",
+        "filesize": 38784,
+        "playtime": 2.16,
+        "audiostart": 4096,
+        "audioend": 38656,
+        "audiolength": 34560
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-1.mp3",
+        "filesize": 51840,
+        "playtime": 2.976,
+        "audiostart": 4096,
+        "audioend": 51712,
+        "audiolength": 47616
+    },
+    {
+        "filename": "..\/audios\/REGGAE\/001.ogg",
+        "filesize": 1250042,
+        "playtime": 228.39147916666664,
+        "audiostart": 233,
+        "audioend": 1249760,
+        "audiolength": 1249527
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-2.mp3",
+        "filesize": 52992,
+        "playtime": 3.048,
+        "audiostart": 4096,
+        "audioend": 52864,
+        "audiolength": 48768
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-1.mp3",
+        "filesize": 74112,
+        "playtime": 4.368,
+        "audiostart": 4096,
+        "audioend": 73984,
+        "audiolength": 69888
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-2.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-2.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-3.mp3",
+        "filesize": 49920,
+        "playtime": 2.856,
+        "audiostart": 4096,
+        "audioend": 49792,
+        "audiolength": 45696
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/001.mp3",
+        "filesize": 3788800,
+        "playtime": 236.669375,
+        "audiostart": 1962,
+        "audioend": 3788672,
+        "audiolength": 3786710
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/002.mp3",
+        "filesize": 5140480,
+        "playtime": 214.04729166666667,
+        "audiostart": 2718,
+        "audioend": 5140480,
+        "audiolength": 5137762
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-3.mp3",
+        "filesize": 53376,
+        "playtime": 3.072,
+        "audiostart": 4096,
+        "audioend": 53248,
+        "audiolength": 49152
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-4.mp3",
+        "filesize": 39936,
+        "playtime": 2.232,
+        "audiostart": 4096,
+        "audioend": 39808,
+        "audiolength": 35712
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-4.mp3",
+        "filesize": 66048,
+        "playtime": 3.864,
+        "audiostart": 4096,
+        "audioend": 65920,
+        "audiolength": 61824
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-3.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-2.mp3",
+        "filesize": 59904,
+        "playtime": 3.48,
+        "audiostart": 4096,
+        "audioend": 59776,
+        "audiolength": 55680
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALSA\/001.ogg",
+        "filesize": 7017041,
+        "playtime": 325.694693877551,
+        "audiostart": 260,
+        "audioend": 7015593,
+        "audiolength": 7015333
+    },
+    {
+        "filename": "..\/audios\/SALSA\/002.ogg",
+        "filesize": 6419179,
+        "playtime": 254.8157823129252,
+        "audiostart": 156,
+        "audioend": 6415541,
+        "audiolength": 6415385
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-2.mp3",
+        "filesize": 64128,
+        "playtime": 3.744,
+        "audiostart": 4096,
+        "audioend": 64000,
+        "audiolength": 59904
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/001.ogg",
+        "filesize": 5381710,
+        "playtime": 240.33523809523808,
+        "audiostart": 156,
+        "audioend": 5372078,
+        "audiolength": 5371922
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/002.ogg",
+        "filesize": 6350146,
+        "playtime": 251.66657596371883,
+        "audiostart": 323,
+        "audioend": 6350047,
+        "audiolength": 6349724
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-3.mp3",
+        "filesize": 61056,
+        "playtime": 3.552,
+        "audiostart": 4096,
+        "audioend": 60928,
+        "audiolength": 56832
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-1.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-4.mp3",
+        "filesize": 49152,
+        "playtime": 2.808,
+        "audiostart": 4096,
+        "audioend": 49024,
+        "audiolength": 44928
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALSA\/001.ogg",
+        "filesize": 7017041,
+        "playtime": 325.694693877551,
+        "audiostart": 260,
+        "audioend": 7015593,
+        "audiolength": 7015333
+    },
+    {
+        "filename": "..\/audios\/SALSA\/002.ogg",
+        "filesize": 6419179,
+        "playtime": 254.8157823129252,
+        "audiostart": 156,
+        "audioend": 6415541,
+        "audiolength": 6415385
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-1.mp3",
+        "filesize": 74112,
+        "playtime": 4.368,
+        "audiostart": 4096,
+        "audioend": 73984,
+        "audiolength": 69888
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/001.ogg",
+        "filesize": 5381710,
+        "playtime": 240.33523809523808,
+        "audiostart": 156,
+        "audioend": 5372078,
+        "audiolength": 5371922
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/002.ogg",
+        "filesize": 6350146,
+        "playtime": 251.66657596371883,
+        "audiostart": 323,
+        "audioend": 6350047,
+        "audiolength": 6349724
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-1.mp3",
+        "filesize": 53760,
+        "playtime": 3.096,
+        "audiostart": 4096,
+        "audioend": 53632,
+        "audiolength": 49536
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-4.mp3",
+        "filesize": 39936,
+        "playtime": 2.232,
+        "audiostart": 4096,
+        "audioend": 39808,
+        "audiolength": 35712
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-3.mp3",
+        "filesize": 80640,
+        "playtime": 4.776,
+        "audiostart": 4096,
+        "audioend": 80512,
+        "audiolength": 76416
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-1.mp3",
+        "filesize": 38784,
+        "playtime": 2.16,
+        "audiostart": 4096,
+        "audioend": 38656,
+        "audiolength": 34560
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-1.mp3",
+        "filesize": 51840,
+        "playtime": 2.976,
+        "audiostart": 4096,
+        "audioend": 51712,
+        "audiolength": 47616
+    },
+    {
+        "filename": "..\/audios\/REGGAE\/001.ogg",
+        "filesize": 1250042,
+        "playtime": 228.39147916666664,
+        "audiostart": 233,
+        "audioend": 1249760,
+        "audiolength": 1249527
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-2.mp3",
+        "filesize": 52992,
+        "playtime": 3.048,
+        "audiostart": 4096,
+        "audioend": 52864,
+        "audiolength": 48768
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-2.mp3",
+        "filesize": 64128,
+        "playtime": 3.744,
+        "audiostart": 4096,
+        "audioend": 64000,
+        "audiolength": 59904
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-2.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-2.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-3.mp3",
+        "filesize": 49920,
+        "playtime": 2.856,
+        "audiostart": 4096,
+        "audioend": 49792,
+        "audiolength": 45696
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/001.mp3",
+        "filesize": 3788800,
+        "playtime": 236.669375,
+        "audiostart": 1962,
+        "audioend": 3788672,
+        "audiolength": 3786710
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/002.mp3",
+        "filesize": 5140480,
+        "playtime": 214.04729166666667,
+        "audiostart": 2718,
+        "audioend": 5140480,
+        "audiolength": 5137762
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-3.mp3",
+        "filesize": 53376,
+        "playtime": 3.072,
+        "audiostart": 4096,
+        "audioend": 53248,
+        "audiolength": 49152
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-3.mp3",
+        "filesize": 61056,
+        "playtime": 3.552,
+        "audiostart": 4096,
+        "audioend": 60928,
+        "audiolength": 56832
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-4.mp3",
+        "filesize": 66048,
+        "playtime": 3.864,
+        "audiostart": 4096,
+        "audioend": 65920,
+        "audiolength": 61824
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-3.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-2.mp3",
+        "filesize": 59904,
+        "playtime": 3.48,
+        "audiostart": 4096,
+        "audioend": 59776,
+        "audiolength": 55680
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-1.mp3",
+        "filesize": 74112,
+        "playtime": 4.368,
+        "audiostart": 4096,
+        "audioend": 73984,
+        "audiolength": 69888
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/001.ogg",
+        "filesize": 5381710,
+        "playtime": 240.33523809523808,
+        "audiostart": 156,
+        "audioend": 5372078,
+        "audiolength": 5371922
+    },
+    {
+        "filename": "..\/audios\/MERENGUE\/002.ogg",
+        "filesize": 6350146,
+        "playtime": 251.66657596371883,
+        "audiostart": 323,
+        "audioend": 6350047,
+        "audiolength": 6349724
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/002.mp3",
+        "filesize": 82176,
+        "playtime": 4.872,
+        "audiostart": 4096,
+        "audioend": 82048,
+        "audiolength": 77952
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/008.mp3",
+        "filesize": 367848,
+        "playtime": 30.648,
+        "audiostart": 72,
+        "audioend": 367848,
+        "audiolength": 367776
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/004.mp3",
+        "filesize": 239976,
+        "playtime": 19.992,
+        "audiostart": 72,
+        "audioend": 239976,
+        "audiolength": 239904
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/008.mp3",
+        "filesize": 480456,
+        "playtime": 40.032,
+        "audiostart": 72,
+        "audioend": 480456,
+        "audiolength": 480384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/005.mp3",
+        "filesize": 363528,
+        "playtime": 30.288,
+        "audiostart": 72,
+        "audioend": 363528,
+        "audiolength": 363456
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-4.mp3",
+        "filesize": 39936,
+        "playtime": 2.232,
+        "audiostart": 4096,
+        "audioend": 39808,
+        "audiolength": 35712
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-1.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-4.mp3",
+        "filesize": 49152,
+        "playtime": 2.808,
+        "audiostart": 4096,
+        "audioend": 49024,
+        "audiolength": 44928
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/REGGAE\/001.ogg",
+        "filesize": 1250042,
+        "playtime": 228.39147916666664,
+        "audiostart": 233,
+        "audioend": 1249760,
+        "audiolength": 1249527
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/002.mp3",
+        "filesize": 82176,
+        "playtime": 4.872,
+        "audiostart": 4096,
+        "audioend": 82048,
+        "audiolength": 77952
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/008.mp3",
+        "filesize": 367848,
+        "playtime": 30.648,
+        "audiostart": 72,
+        "audioend": 367848,
+        "audiolength": 367776
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/004.mp3",
+        "filesize": 239976,
+        "playtime": 19.992,
+        "audiostart": 72,
+        "audioend": 239976,
+        "audiolength": 239904
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/008.mp3",
+        "filesize": 480456,
+        "playtime": 40.032,
+        "audiostart": 72,
+        "audioend": 480456,
+        "audiolength": 480384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/005.mp3",
+        "filesize": 363528,
+        "playtime": 30.288,
+        "audiostart": 72,
+        "audioend": 363528,
+        "audiolength": 363456
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-1.mp3",
+        "filesize": 53760,
+        "playtime": 3.096,
+        "audiostart": 4096,
+        "audioend": 53632,
+        "audiolength": 49536
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-2.mp3",
+        "filesize": 64128,
+        "playtime": 3.744,
+        "audiostart": 4096,
+        "audioend": 64000,
+        "audiolength": 59904
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-3.mp3",
+        "filesize": 80640,
+        "playtime": 4.776,
+        "audiostart": 4096,
+        "audioend": 80512,
+        "audiolength": 76416
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-1.mp3",
+        "filesize": 38784,
+        "playtime": 2.16,
+        "audiostart": 4096,
+        "audioend": 38656,
+        "audiolength": 34560
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-1.mp3",
+        "filesize": 51840,
+        "playtime": 2.976,
+        "audiostart": 4096,
+        "audioend": 51712,
+        "audiolength": 47616
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/001.mp3",
+        "filesize": 3788800,
+        "playtime": 236.669375,
+        "audiostart": 1962,
+        "audioend": 3788672,
+        "audiolength": 3786710
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/002.mp3",
+        "filesize": 5140480,
+        "playtime": 214.04729166666667,
+        "audiostart": 2718,
+        "audioend": 5140480,
+        "audiolength": 5137762
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/003.mp3",
+        "filesize": 79488,
+        "playtime": 4.704,
+        "audiostart": 4096,
+        "audioend": 79360,
+        "audiolength": 75264
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/007.mp3",
+        "filesize": 362376,
+        "playtime": 30.192,
+        "audiostart": 72,
+        "audioend": 362376,
+        "audiolength": 362304
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/006.mp3",
+        "filesize": 244008,
+        "playtime": 20.328,
+        "audiostart": 72,
+        "audioend": 244008,
+        "audiolength": 243936
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/007.mp3",
+        "filesize": 336456,
+        "playtime": 28.032,
+        "audiostart": 72,
+        "audioend": 336456,
+        "audiolength": 336384
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/004.mp3",
+        "filesize": 720000,
+        "playtime": 29.99425,
+        "audiostart": 138,
+        "audioend": 720000,
+        "audiolength": 719862
+    },
+    {
+        "filename": "..\/audios\/SALSA\/001.ogg",
+        "filesize": 7017041,
+        "playtime": 325.694693877551,
+        "audiostart": 260,
+        "audioend": 7015593,
+        "audiolength": 7015333
+    },
+    {
+        "filename": "..\/audios\/SALSA\/002.ogg",
+        "filesize": 6419179,
+        "playtime": 254.8157823129252,
+        "audiostart": 156,
+        "audioend": 6415541,
+        "audiolength": 6415385
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-2.mp3",
+        "filesize": 52992,
+        "playtime": 3.048,
+        "audiostart": 4096,
+        "audioend": 52864,
+        "audiolength": 48768
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-3.mp3",
+        "filesize": 61056,
+        "playtime": 3.552,
+        "audiostart": 4096,
+        "audioend": 60928,
+        "audiolength": 56832
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-2.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-2.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-3.mp3",
+        "filesize": 49920,
+        "playtime": 2.856,
+        "audiostart": 4096,
+        "audioend": 49792,
+        "audiolength": 45696
+    },
+    {
+        "filename": "..\/audios\/REGGAE\/001.ogg",
+        "filesize": 1250042,
+        "playtime": 228.39147916666664,
+        "audiostart": 233,
+        "audioend": 1249760,
+        "audiolength": 1249527
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-3.mp3",
+        "filesize": 53376,
+        "playtime": 3.072,
+        "audiostart": 4096,
+        "audioend": 53248,
+        "audiolength": 49152
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-1.mp3",
+        "filesize": 74112,
+        "playtime": 4.368,
+        "audiostart": 4096,
+        "audioend": 73984,
+        "audiolength": 69888
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-4.mp3",
+        "filesize": 66048,
+        "playtime": 3.864,
+        "audiostart": 4096,
+        "audioend": 65920,
+        "audiolength": 61824
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-3.mp3",
+        "filesize": 39552,
+        "playtime": 2.208,
+        "audiostart": 4096,
+        "audioend": 39424,
+        "audiolength": 35328
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-2.mp3",
+        "filesize": 59904,
+        "playtime": 3.48,
+        "audiostart": 4096,
+        "audioend": 59776,
+        "audiolength": 55680
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/001.mp3",
+        "filesize": 3788800,
+        "playtime": 236.669375,
+        "audiostart": 1962,
+        "audioend": 3788672,
+        "audiolength": 3786710
+    },
+    {
+        "filename": "..\/audios\/BALLENATO\/002.mp3",
+        "filesize": 5140480,
+        "playtime": 214.04729166666667,
+        "audiostart": 2718,
+        "audioend": 5140480,
+        "audiolength": 5137762
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/004.mp3",
+        "filesize": 79104,
+        "playtime": 4.68,
+        "audiostart": 4096,
+        "audioend": 78976,
+        "audiolength": 74880
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/005.mp3",
+        "filesize": 243432,
+        "playtime": 20.28,
+        "audiostart": 72,
+        "audioend": 243432,
+        "audiolength": 243360
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/001.mp3",
+        "filesize": 241704,
+        "playtime": 20.136,
+        "audiostart": 72,
+        "audioend": 241704,
+        "audiolength": 241632
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/002.mp3",
+        "filesize": 473256,
+        "playtime": 39.432,
+        "audiostart": 72,
+        "audioend": 473256,
+        "audiolength": 473184
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/003.mp3",
+        "filesize": 236808,
+        "playtime": 19.728,
+        "audiostart": 72,
+        "audioend": 236808,
+        "audiolength": 236736
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    },
+    {
+        "filename": "..\/audios\/SALIDA-SALSA\/SALSA-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/SALIDA-MERENGUE\/MERENGUE-4.mp3",
+        "filesize": 39936,
+        "playtime": 2.232,
+        "audiostart": 4096,
+        "audioend": 39808,
+        "audiolength": 35712
+    },
+    {
+        "filename": "..\/audios\/SALIDA-REGGAE\/REGGAE-1.mp3",
+        "filesize": 65664,
+        "playtime": 3.84,
+        "audiostart": 4096,
+        "audioend": 65536,
+        "audiolength": 61440
+    },
+    {
+        "filename": "..\/audios\/SALIDA-BALLENATO\/BALLENATO-4.mp3",
+        "filesize": 49152,
+        "playtime": 2.808,
+        "audiostart": 4096,
+        "audioend": 49024,
+        "audiolength": 44928
+    },
+    {
+        "filename": "..\/audios\/SALIDA-INGLES\/80-4.mp3",
+        "filesize": 54144,
+        "playtime": 3.12,
+        "audiostart": 4096,
+        "audioend": 54016,
+        "audiolength": 49920
+    },
+    {
+        "filename": "..\/audios\/ENTRADAS\/001.mp3",
+        "filesize": 76800,
+        "playtime": 4.536,
+        "audiostart": 4096,
+        "audioend": 76672,
+        "audiolength": 72576
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/003.mp3",
+        "filesize": 239400,
+        "playtime": 19.944,
+        "audiostart": 72,
+        "audioend": 239400,
+        "audiolength": 239328
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-1\/002.mp3",
+        "filesize": 121608,
+        "playtime": 10.128,
+        "audiostart": 72,
+        "audioend": 121608,
+        "audiolength": 121536
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/006.mp3",
+        "filesize": 334728,
+        "playtime": 27.888,
+        "audiostart": 72,
+        "audioend": 334728,
+        "audiolength": 334656
+    },
+    {
+        "filename": "..\/audios\/INTERMEDIO-2\/001.mp3",
+        "filesize": 1423916,
+        "playtime": 59.324083333333334,
+        "audiostart": 138,
+        "audioend": 1423916,
+        "audiolength": 1423778
+    }
+]

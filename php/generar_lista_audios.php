@@ -1,36 +1,48 @@
 <?php
 require_once 'data.php';
+require_once 'data_file.php';
+require_once 'getid3/getid3.php';
 
-$ruta = AUDIOS_RUTA;
-$list_dirs = array();
+$data_lista_reproduccion = new ListaReproduccion();
+$array_lista_reproduccion = $data_lista_reproduccion->Load()->Get();
 
-if ($directory = opendir($ruta)) { 
-    $dirs = scandir($ruta);
+$filenames = array();
+$getID3 = new getID3();
+$playfiles = array();
 
-    $list_dirs = array_filter($dirs, function($item) use($ruta){ return is_dir($ruta.$item) && !in_array($item, ['.','..']); });
-
-    asort($list_dirs);
-
-    /*foreach ($list_dirs as $dir) {
-        //solo si el archivo es un directorio, distinto que "." y ".."
-        $val64 = explode("_",$dir);
-        if($val64[0]!="fonts" && $val64[0]!="images" && $val64[0]!="js"&& $val64[0]!="AUDIOS"&& $val64[0]!="css"&& $val64[0]!="imagenes") {
-            echo "<option value=\"$dir\">$dir</option>";
-            }
-      }   */
-  
-    closedir($dh);
+function get_extension_file($value){
+    $explode = explode('.', $value);
+    return array_slice($explode, -1)[0];
 }
 
-print_r($list_dirs);
+foreach ($array_lista_reproduccion['lista'] as $key => $value) {
+    $filenames[] = array_filter($value['lista'], function($item) { 
+        return in_array(get_extension_file($item), ['mp3','ogg']); 
+    });
+}
 
-echo "<hr>";
+foreach ($filenames as $key => $filenames_item) {
+    foreach ($filenames_item as $filename) {
+        $id3 = $getID3->analyze(substr($filename, 3));
+        //if ($id3['fileformat'] == 'mp3') {
+        $playfile = array(
+            'filename' => substr($filename, 3),
+            'filesize' => $id3['filesize'],
+            'playtime' => $id3['playtime_seconds'],
+            'audiostart' => $id3['avdataoffset'],
+            'audioend' => $id3['avdataend'],
+            'audiolength' => $id3['avdataend'] - $id3['avdataoffset'],
+        );
 
-$a = 4;
-$b = 10;
+        $playfiles[] = $playfile;
+    }
+}
 
-[$a, $b] = [$b, $a];
+foreach ($playfiles as $key => $value) {
+    print_r($value);
+    echo "<br><br>";
+}
 
-echo $a." => ".$b;
 
+write_file('../json/reproducir.json', json_encode($playfiles, JSON_PRETTY_PRINT));
 ?>

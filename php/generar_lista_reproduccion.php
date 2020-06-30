@@ -73,6 +73,15 @@ for($i=$current_lista, $j=0; $i<((int)($nronda)+(int)($current_lista)); $i++, $j
     );
 }
 
+$lista_reproduccion = array(
+    "time" => time(),
+    "lista" => $lista_reproducciones
+);
+
+$data_lista_reproduccion = new ListaReproduccion();
+$data_lista_reproduccion->Set($lista_reproduccion);
+$data_lista_reproduccion->Save();
+
 echo "</br></br>Listas Generadas:</br></br>";
 foreach($lista_reproducciones as $key => $value){
     echo "Lista: ".$value["current_lista"]."</br>";

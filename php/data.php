@@ -150,14 +150,14 @@ class Lista extends Data{
     function Load(){ parent::Load(); return $this; }
 }
 
-class Lista1 extends Data{
+class ListaReproduccion extends Data{
     function __construct(){
         parent::__construct(
-            "../json/lista1.json",
+            "../json/lista_reproduccion.json",
             array(
                 'time_control' => date('Y-m-d G:i:s'),
                 'current_lista' => 0,
-                'lista'         => json_encode(array(),JSON_UNESCAPED_UNICODE),
+                'lista'         => json_encode(array(),JSON_PRETTY_PRINT),
                 'revolver'      => 'false'
             ));
     }
