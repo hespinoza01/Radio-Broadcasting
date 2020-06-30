@@ -2,6 +2,7 @@
 
 require_once 'mezclar/mezcla_lista.php';
 require_once 'data.php';
+require_once 'getid3/getid3.php';
 
 $datos_generos = new Generos();
 $datos_comerciales = new Comerciales();
@@ -45,6 +46,11 @@ if($RANDOM == 3){
     $activar_permutacion = $datos_variables->Get()["activar_permutacion"];
 }
 
+function get_extension_file($value){
+    $explode = explode('.', $value);
+    return array_slice($explode, -1)[0];
+}
+
 for($i=$current_lista, $j=0; $i<((int)($nronda)+(int)($current_lista)); $i++, $j++) {
     mezclar_generos(
         $generos, 
@@ -67,10 +73,11 @@ for($i=$current_lista, $j=0; $i<((int)($nronda)+(int)($current_lista)); $i++, $j
         $escalar, 
         $comerciales_generos); // CREA LA LISTA DE REPRODUCCION
 
-    $lista_reproducciones[] = array(
-        "current_lista" => $j,
-        "lista"         => $lista
-    );
+    $lista = array_filter($lista, function($item) {
+        return in_array(get_extension_file($item), ['mp3','ogg']); 
+    });
+
+    $lista_reproducciones["ronda-$j"] = $lista;
 }
 
 $lista_reproduccion = array(
@@ -84,9 +91,9 @@ $data_lista_reproduccion->Save();
 
 echo "</br></br>Listas Generadas:</br></br>";
 foreach($lista_reproducciones as $key => $value){
-    echo "Lista: ".$value["current_lista"]."</br>";
+    echo "Lista: ".substr($key, 6)."</br>";
     echo "Canciones: </br>";
-    foreach ($value["lista"] as $_key => $_value) {
+    foreach ($value as $_value) {
         echo "=> ".$_value."</br>";
     }
     echo "</br><hr>";

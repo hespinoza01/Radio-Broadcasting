@@ -31,7 +31,7 @@ function read_file($filename, $json=true){
         );
     }
 
-    $data = file_get_contents($filename);
+    $data = str_replace("\\", "", file_get_contents($filename));
 
     return ($json) ? json_decode($data, true) : $data;
 }
