@@ -51,6 +51,7 @@ function get_extension_file($value){
     return array_slice($explode, -1)[0];
 }
 
+set_time_limit(0);
 for($i=$current_lista, $j=0; $i<((int)($nronda)+(int)($current_lista)); $i++, $j++) {
     mezclar_generos(
         $generos, 
@@ -77,7 +78,7 @@ for($i=$current_lista, $j=0; $i<((int)($nronda)+(int)($current_lista)); $i++, $j
         return in_array(get_extension_file($item), ['mp3','ogg']); 
     });
 
-    $lista_reproducciones["ronda-$j"] = $lista;
+    $lista_reproducciones[$j] = $lista;
 }
 
 $lista_reproduccion = array(
@@ -91,10 +92,10 @@ $data_lista_reproduccion->Save();
 
 echo "</br></br>Listas Generadas:</br></br>";
 foreach($lista_reproducciones as $key => $value){
-    echo "Lista: ".substr($key, 6)."</br>";
+    echo "Lista: $key</br>";
     echo "Canciones: </br>";
-    foreach ($value as $_value) {
-        echo "=> ".$_value."</br>";
+    foreach ($value as $_key => $_value) {
+        echo "$_key => $_value</br>";
     }
     echo "</br><hr>";
 }

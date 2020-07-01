@@ -10,6 +10,8 @@ $filenames = array();
 $getID3 = new getID3();
 $playfiles = array();
 
+set_time_limit(0);
+
 function get_info_files($songs){
     $getID3 = new getID3();
     $playfiles = array();
@@ -37,11 +39,10 @@ foreach ($array_lista_reproduccion as $key => $lista) {
     $playfiles[$key] = get_info_files($lista);
 }
 
+write_file('../json/reproducir.json', json_encode($playfiles, JSON_PRETTY_PRINT));
 foreach ($playfiles as $key => $value) {
     print_r($value);
     echo "<br><br>";
 }
 
-
-write_file('../json/reproducir.json', json_encode($playfiles, JSON_PRETTY_PRINT));
 ?>
