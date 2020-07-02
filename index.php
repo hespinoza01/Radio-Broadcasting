@@ -50,22 +50,33 @@
         </form>
     </center>
 
+    <h3 id="status" style="text-align: center;"></h3>
+
     <div id="lista-content"></div>
 
     <script>
         let form = document.getElementById("form"),
+            status = document.getElementById("status"),
             listaContent = document.getElementById("lista-content"),
             btn = document.getElementById('btn');
 
         form.addEventListener('submit', e => {
             e.preventDefault();
-            listaContent.innerHTML = "<center><h3>Generando Listas...</h3></center>";
+            status.innerHTML = "Generando Listas...";
 
             fetch("php/generar_lista_reproduccion.php", {
                 method: 'POST',
                 body: new FormData(form)
             }).then(res => res.text())
-                .then(data => listaContent.innerHTML = data)
+                .then(data =>{ 
+                    listaContent.innerHTML = data;
+                    status.innerHTML = "Creando lista de programación...";
+
+                    fetch("php/generar_lista_audios.php")
+                        .then(res => res.text())
+                        .then(data => status.innerHTML = data)
+                        .catch(error => console.error(error));
+                })
                 .catch(error => console.error(error));
         });
 

@@ -39,7 +39,15 @@ foreach ($array_lista_reproduccion as $key => $lista) {
     $playfiles[$key] = get_info_files($lista);
 }
 
+$data_lista_reproduccion->Set(array(
+    "time"  => time(),
+    "lista" => $array_lista_reproduccion
+));
+
+$data_lista_reproduccion->Save();
 write_file('../json/reproducir.json', json_encode($playfiles, JSON_PRETTY_PRINT));
+echo "Lista de programación creada satisfactoriamente"; die();
+
 foreach ($playfiles as $key => $value) {
     print_r($value);
     echo "<br><br>";

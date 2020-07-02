@@ -81,12 +81,13 @@ for($i=$current_lista, $j=0; $i<((int)($nronda)+(int)($current_lista)); $i++, $j
     $lista_reproducciones[$j] = $lista;
 }
 
+$data_lista_reproduccion = new ListaReproduccion();
+
 $lista_reproduccion = array(
-    "time" => time(),
+    "time" => $data_lista_reproduccion->Load()->Get()['time'],
     "lista" => $lista_reproducciones
 );
 
-$data_lista_reproduccion = new ListaReproduccion();
 $data_lista_reproduccion->Set($lista_reproduccion);
 $data_lista_reproduccion->Save();
 
