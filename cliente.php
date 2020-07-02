@@ -11,9 +11,9 @@
     <audio id='player' src="php/reproducir.php" controls></audio>
 
     <script>
-        function setSource(source, player) {
+        function setSource(source, _player) {
             return new Promise((resolve, reject) => {
-                player.src = source;
+                _player.src = source; console.log(source);
                 resolve();
             });
         }
@@ -23,9 +23,14 @@
             .then(res => res.json())
             .then(data => {
                 console.log(data);
-                player.play();
+                setSource(
+                    `php/song.php?path=${data.filename}`, player
+                ).then(() => player.play());
+                
                 title.textContent = data.filename;
-                player.currentTime = (inicio) ? data.current_time : data.current_time;
+                
+                if(inicio)
+                    player.currentTime = data.current_time;
             });
         }
 

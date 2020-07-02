@@ -74,7 +74,7 @@ $old_buffer = substr(get_audio_stream($current_song['filename']), $track_pos);
 echo $old_buffer; die();*/
 set_time_limit(0);
 if($_SERVER['REQUEST_METHOD'] == 'GET'){
-    echo get_audio_stream($current_song['filename']);
+    echo 'data:audio/mp3;base64,'.base64_encode(get_audio_stream($current_song['filename']));
     flush();
 }else{
     $res = array(
