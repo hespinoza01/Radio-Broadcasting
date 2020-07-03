@@ -8,9 +8,10 @@
 
     <h2>Cliente Emisora</h2>
     <p>Reprocuciendo: <span id='title'></span></p>
-    <audio id='player' src="php/reproducir.php" controls></audio>
+    <audio id='player' src="" controls></audio>
 
     <script>
+        let PLAYLIST, PLAYLIST_INDEX, SONG_INDEX;
         function setSource(source, _player) {
             return new Promise((resolve, reject) => {
                 _player.src = source; console.log(source);
@@ -22,16 +23,36 @@
             fetch('php/reproducir.php', { method: 'POST' })
             .then(res => res.json())
             .then(data => {
-                console.log(data);
+                console.log({
+                    playlist_index: data.playlist_index,
+                    song_index: data.song_index,
+                    song: data.playlist[data.playlist_index],
+                    current_time: data.current_time
+                });
+
+                if(inicio){
+                    PLAYLIST = data.playlist;
+                    PLAYLIST_INDEX = data.playlist_index;
+                    SONG_INDEX = data.song_index;
+                }
+                
                 setSource(
-                    `php/song.php?path=${data.filename}`, player
+                    `php/song.php?path=${PLAYLIST[SONG_INDEX].filename}`, player
                 ).then(() => player.play());
                 
-                title.textContent = data.filename;
+                title.textContent = PLAYLIST[SONG_INDEX].filename;
+                SONG_INDEX++;
+
+                if(SONG_INDEX >= PLAYLIST.length){
+                    fetch(`php/playlist.php?index=${PLAYLIST_INDEX}`)
+                        .then(res => res.json())
+                        .then(data => {})
+                        .catch(err => console.error(err));
+                }
                 
-                if(inicio)
-                    player.currentTime = data.current_time;
-            });
+                if(inicio) player.currentTime = data.current_time;
+            })
+            .catch(error => console.error(error));
         }
 
         player.addEventListener('ended', () => reproducir());

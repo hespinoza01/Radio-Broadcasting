@@ -23,10 +23,6 @@ $settings = array(
 );
 
 //output headers
-//header("Content-Type: application/json");
-header('Content-type: audio/mpeg');
-header("Cache-Control: no-cache");
-header("Content-Transfer-Encoding: binary");
 //header("Expires: Tue, 03 Jul 2001 06:00:00 GMT");
 //header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 //header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
@@ -74,13 +70,20 @@ $old_buffer = substr(get_audio_stream($current_song['filename']), $track_pos);
 echo $old_buffer; die();*/
 set_time_limit(0);
 if($_SERVER['REQUEST_METHOD'] == 'GET'){
+    header('Content-type: audio/mpeg');
+    header("Cache-Control: no-cache");
+    header("Content-Transfer-Encoding: binary");
+
     echo 'data:audio/mp3;base64,'.base64_encode(get_audio_stream($current_song['filename']));
     flush();
 }else{
+    header("Content-Type: application/json");
+
     $res = array(
-        'filename' => $current_song['filename'],
-        'current_time' => $current_song['playtime'] - ($total_playtime - ($current_time-$start_time)),
-        'duration_time' => $current_song['playtime']
+        'playlist'          => $play_list[$i]['lista'],
+        'playlist_index'    => $i,
+        'song_index'        => $j,
+        'current_time'      => $current_song['playtime'] - ($total_playtime - ($current_time-$start_time))
     );
 
     echo json_encode($res, JSON_PRETTY_PRINT);
