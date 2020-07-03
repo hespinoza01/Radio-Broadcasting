@@ -8,7 +8,7 @@
 
     <h2>Cliente Emisora</h2>
     <p>Reprocuciendo: <span id='title'></span></p>
-    <audio id='player' src="" controls></audio>
+    <audio id='player' src="" controls autoplay muted></audio>
 
     <script>
         let PLAYLIST, PLAYLIST_INDEX, SONG_INDEX;
@@ -50,7 +50,7 @@
                             playPromise.then(_ => {
                                 player.play();
                             })
-                            .catch(error => {});
+                            .catch(error => { player.play(); });
                         }
                     });
                     
