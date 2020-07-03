@@ -8,13 +8,13 @@
 
     <h2>Cliente Emisora</h2>
     <p>Reprocuciendo: <span id='title'></span></p>
-    <p>tiempo transcurrido: <span id='current'></span></p>
-    <p>duración: <span id='duration'></span></p>
-    <button onclick="player.play()">Reproducir</button>
+    <p>tiempo transcurrido: <span id='current'>00:00</span></p>
+    <p>duración: <span id='duration'>00:00</span></p>
+    <button onclick="reproducir()">Reproducir</button>
     <button onclick="player.pause()">Pausar</button>
 
     <script>
-        let PLAYLIST, PLAYLIST_INDEX, SONG_INDEX;
+        let PLAYLIST, PLAYLIST_INDEX, SONG_INDEX, INICIO = true;
         let player = new Audio();
 
         window.addEventListener('load', function() {
@@ -29,7 +29,9 @@
                 });
             }
 
-            function reproducir(inicio=false){
+            function reproducir(){
+                INICIO = false;
+
                 fetch('php/reproducir.php', { method: 'POST' })
                 .then(res => res.json())
                 .then(data => {
@@ -40,7 +42,7 @@
                         current_time: data.current_time
                     });
 
-                    if(inicio){
+                    if(INICIO){
                         PLAYLIST = data.playlist;
                         PLAYLIST_INDEX = data.playlist_index;
                         SONG_INDEX = data.song_index;
@@ -49,7 +51,7 @@
                     setSource(
                         `php/song.php?path=${PLAYLIST[SONG_INDEX].filename}`, player
                     ).then(() => {
-                        if(inicio) player.currentTime = data.current_time;
+                        if(INICIO) player.currentTime = data.current_time;
                         let playPromise = player.play();
                          
                         if (playPromise !== undefined) {
@@ -98,7 +100,6 @@
 
             player.addEventListener('ended', () => reproducir());
             player.addEventListener('timeupdate', () => { current.innerHTML = getReadableTime(player.currentTime) });
-            reproducir(true);
         });
 
     </script>
