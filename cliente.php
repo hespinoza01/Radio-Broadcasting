@@ -10,8 +10,8 @@
     <p>Reprocuciendo: <span id='title'></span></p>
     <p>tiempo transcurrido: <span id='current'>00:00</span></p>
     <p>duración: <span id='duration'>00:00</span></p>
-    <button onclick="reproducir()">Reproducir</button>
-    <button onclick="player.pause()">Pausar</button>
+    <button id="btnPlay">Reproducir</button>
+    <button id="btnPause">Pausar</button>
 
     <script>
         let PLAYLIST, PLAYLIST_INDEX, SONG_INDEX, INICIO = true;
@@ -21,6 +21,8 @@
             let current = document.getElementById('current'),
                 duration = document.getElementById('duration'),
                 title = document.getElementById('title');
+                btnPlay = document.getElementById('btnPlay');
+                btnPause = document.getElementById('btnPause');
 
             function setSource(source, _player) {
                 return new Promise((resolve, reject) => {
@@ -100,6 +102,8 @@
 
             player.addEventListener('ended', () => reproducir());
             player.addEventListener('timeupdate', () => { current.innerHTML = getReadableTime(player.currentTime) });
+            btnPlay.addEventListener('click', () => reproducir());
+            btnPause.addEventListener('click', () => player.pause());
         });
 
     </script>
