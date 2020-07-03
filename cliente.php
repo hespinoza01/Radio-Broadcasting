@@ -32,8 +32,6 @@
             }
 
             function reproducir(){
-                INICIO = false;
-
                 fetch('php/reproducir.php', { method: 'POST' })
                 .then(res => res.json())
                 .then(data => {
@@ -76,6 +74,7 @@
                     }
                     
                     //if(inicio) player.currentTime = data.current_time;
+                    INICIO = false;
                 })
                 .catch(error => console.error(error));
             }
