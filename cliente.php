@@ -14,6 +14,9 @@
         let PLAYLIST, PLAYLIST_INDEX, SONG_INDEX;
 
         window.addEventListener('load', function() {
+            let player = document.getElementById('player'),
+                title = document.getElementById('title');
+
             function setSource(source, _player) {
                 return new Promise((resolve, reject) => {
                     _player.src = source; console.log(source);
@@ -40,7 +43,16 @@
 
                     setSource(
                         `php/song.php?path=${PLAYLIST[SONG_INDEX].filename}`, player
-                    ).then(() => player.play());
+                    ).then(() => { 
+                        let playPromise = player.play();
+                         
+                        if (playPromise !== undefined) {
+                            playPromise.then(_ => {
+                                player.play();
+                            })
+                            .catch(error => {});
+                        }
+                    });
                     
                     title.textContent = PLAYLIST[SONG_INDEX].filename;
                     SONG_INDEX++;
