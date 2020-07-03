@@ -12,52 +12,54 @@
 
     <script>
         let PLAYLIST, PLAYLIST_INDEX, SONG_INDEX;
-        function setSource(source, _player) {
-            return new Promise((resolve, reject) => {
-                _player.src = source; console.log(source);
-                resolve();
-            });
-        }
 
-        function reproducir(inicio=false){
-            fetch('php/reproducir.php', { method: 'POST' })
-            .then(res => res.json())
-            .then(data => {
-                console.log({
-                    playlist_index: data.playlist_index,
-                    song_index: data.song_index,
-                    song: data.playlist[data.playlist_index],
-                    current_time: data.current_time
+        window.addEventListener('load', function() {
+            function setSource(source, _player) {
+                return new Promise((resolve, reject) => {
+                    _player.src = source; console.log(source);
+                    resolve();
                 });
+            }
 
-                if(inicio){
-                    PLAYLIST = data.playlist;
-                    PLAYLIST_INDEX = data.playlist_index;
-                    SONG_INDEX = data.song_index;
-                }
-                
-                setSource(
-                    `php/song.php?path=${PLAYLIST[SONG_INDEX].filename}`, player
-                ).then(() => player.play());
-                
-                title.textContent = PLAYLIST[SONG_INDEX].filename;
-                SONG_INDEX++;
+            function reproducir(inicio=false){
+                fetch('php/reproducir.php', { method: 'POST' })
+                .then(res => res.json())
+                .then(data => {
+                    console.log({
+                        playlist_index: data.playlist_index,
+                        song_index: data.song_index,
+                        song: data.playlist[data.playlist_index],
+                        current_time: data.current_time
+                    });
 
-                if(SONG_INDEX >= PLAYLIST.length){
-                    fetch(`php/playlist.php?index=${PLAYLIST_INDEX}`)
-                        .then(res => res.json())
-                        .then(data => {})
-                        .catch(err => console.error(err));
-                }
-                
-                if(inicio) player.currentTime = data.current_time;
-            })
-            .catch(error => console.error(error));
-        }
+                    if(inicio){
+                        PLAYLIST = data.playlist;
+                        PLAYLIST_INDEX = data.playlist_index;
+                        SONG_INDEX = data.song_index;
+                    }
 
-        player.addEventListener('ended', () => reproducir());
+                    setSource(
+                        `php/song.php?path=${PLAYLIST[SONG_INDEX].filename}`, player
+                    ).then(() => player.play());
+                    
+                    title.textContent = PLAYLIST[SONG_INDEX].filename;
+                    SONG_INDEX++;
 
-        reproducir(true);
+                    if(SONG_INDEX >= PLAYLIST.length){
+                        fetch(`php/playlist.php?index=${PLAYLIST_INDEX}`)
+                            .then(res => res.json())
+                            .then(data => {})
+                            .catch(err => console.error(err));
+                    }
+                    
+                    if(inicio) player.currentTime = data.current_time;
+                })
+                .catch(error => console.error(error));
+            }
+
+            player.addEventListener('ended', () => reproducir());
+            reproducir(true);
+        });
 
     </script>
 
