@@ -51,14 +51,18 @@
                     setSource(
                         `php/song.php?path=${PLAYLIST[SONG_INDEX].filename}`, player
                     ).then(() => {
-                        if(INICIO) player.currentTime = data.current_time;
                         let playPromise = player.play();
                          
                         if (playPromise !== undefined) {
                             playPromise.then(_ => {
                                 player.play();
                             })
-                            .catch(error => { player.play(); });
+                            .catch(error => { });
+                        }
+
+                        if(INICIO){
+                            player.currentTime = data.current_time;
+                            INICIO = false;
                         }
                     });
                     
@@ -73,8 +77,6 @@
                             .catch(err => console.error(err));
                     }
                     
-                    //if(inicio) player.currentTime = data.current_time;
-                    INICIO = false;
                 })
                 .catch(error => console.error(error));
             }
