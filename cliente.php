@@ -8,13 +8,18 @@
 
     <h2>Cliente Emisora</h2>
     <p>Reprocuciendo: <span id='title'></span></p>
-    <audio id='player' src="" controls></audio>
+    <p>tiempo transcurrido: <span id='current'></span></p>
+    <p>duración: <span id='duration'></span></p>
+    <button onclick="player.play()">Reproducir</button>
+    <button onclick="player.pause()">Pausar</button>
 
     <script>
         let PLAYLIST, PLAYLIST_INDEX, SONG_INDEX;
+        let player = new Audio();
 
         window.addEventListener('load', function() {
-            let player = document.getElementById('player'),
+            let current = document.getElementById('current'),
+                duration = document.getElementById('duration'),
                 title = document.getElementById('title');
 
             function setSource(source, _player) {
@@ -43,18 +48,20 @@
 
                     setSource(
                         `php/song.php?path=${PLAYLIST[SONG_INDEX].filename}`, player
-                    ).then(() => { 
+                    ).then(() => {
+                        if(inicio) player.currentTime = data.current_time;
                         let playPromise = player.play();
                          
                         if (playPromise !== undefined) {
                             playPromise.then(_ => {
                                 player.play();
                             })
-                            .catch(error => {});
+                            .catch(error => { player.play(); });
                         }
                     });
                     
                     title.textContent = PLAYLIST[SONG_INDEX].filename;
+                    duration.innerHTML = getReadableTime(PLAYLIST[SONG_INDEX].playtime);
                     SONG_INDEX++;
 
                     if(SONG_INDEX >= PLAYLIST.length){
@@ -64,12 +71,33 @@
                             .catch(err => console.error(err));
                     }
                     
-                    if(inicio) player.currentTime = data.current_time;
+                    //if(inicio) player.currentTime = data.current_time;
                 })
                 .catch(error => console.error(error));
             }
 
+            function getReadableTime(duration) {
+                duration = parseInt(duration);
+
+                let horas = Math.floor(duration / 3600),
+                    minutos = Math.floor((duration - (horas * 3600)) / 60),
+                    segundos = duration - (horas * 3600) - (minutos * 60),
+                    tiempo = "";
+
+                if (horas < 10) { horas = "0" + horas; }
+                if (minutos < 10) { minutos = "0" + minutos; }
+                if (segundos < 10) { segundos = "0" + segundos; }
+
+                if (horas === "00") {
+                    tiempo = minutos + ":" + segundos;
+                } else {
+                    tiempo = horas + ":" + minutos + ":" + segundos;
+                }
+                return tiempo;
+            }
+
             player.addEventListener('ended', () => reproducir());
+            player.addEventListener('timeupdate', () => { current.innerHTML = getReadableTime(player.currentTime) });
             reproducir(true);
         });
 
