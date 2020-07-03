@@ -8,7 +8,7 @@
 
     <h2>Cliente Emisora</h2>
     <p>Reprocuciendo: <span id='title'></span></p>
-    <audio id='player' src="" controls autoplay muted></audio>
+    <audio id='player' src="" controls></audio>
 
     <script>
         let PLAYLIST, PLAYLIST_INDEX, SONG_INDEX;
@@ -44,6 +44,7 @@
                     setSource(
                         `php/song.php?path=${PLAYLIST[SONG_INDEX].filename}`, player
                     ).then(() => { 
+                        player.muted = true;
                         let playPromise = player.play();
                          
                         if (playPromise !== undefined) {
